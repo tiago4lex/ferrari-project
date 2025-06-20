@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "model": "SF90 Stradale",
+    "category": "super",
+    "year": 2023,
+    "price": 625000,
+    "image": "../images/sf90.jpg",
+    "specs": {
+      "engine": "V8 4.0L Twin-Turbo + 3 Motores Elétricos",
+      "power": "1000 cv",
+      "top_speed": "340 km/h",
+      "acceleration": "2.5s (0-100 km/h)"
+    },
+    "description": "O SF90 Stradale é o primeiro híbrido plug-in da Ferrari, combinando desempenho extremo com eficiência energética."
+  },
+  {
+    "id": 2,
+    "model": "812 Superfast",
+    "category": "super",
+    "year": 2023,
+    "price": 335000,
+    "image": "../images/812.jpg",
+    "specs": {
+      "engine": "V12 6.5L Naturalmente Aspirado",
+      "power": "800 cv",
+      "top_speed": "340 km/h",
+      "acceleration": "2.9s (0-100 km/h)"
+    },
+    "description": "O 812 Superfast representa o ápice dos motores V12 da Ferrari, oferecendo uma experiência de condução emocionante."
+  },
+  {
+    "id": 3,
+    "model": "Roma",
+    "category": "sports",
+    "year": 2023,
+    "price": 247000,
+    "image": "../images/roma.jpg",
+    "specs": {
+      "engine": "V8 3.9L Twin-Turbo",
+      "power": "620 cv",
+      "top_speed": "320 km/h",
+      "acceleration": "3.4s (0-100 km/h)"
+    },
+    "description": "O Roma é um coupé elegante que combina design atemporal com desempenho esportivo contemporâneo."
+  },
+  {
+    "id": 4,
+    "model": "296 GTB",
+    "category": "super",
+    "year": 2023,
+    "price": 321000,
+    "image": "../images/296gtb.jpg",
+    "specs": {
+      "engine": "V6 3.0L Twin-Turbo + Motor Elétrico",
+      "power": "830 cv",
+      "top_speed": "330 km/h",
+      "acceleration": "2.9s (0-100 km/h)"
+    },
+    "description": "O 296 GTB introduz um novo capítulo na história Ferrari com seu revolucionário V6 híbrido."
+  },
+  {
+    "id": 5,
+    "model": "Portofino M",
+    "category": "sports",
+    "year": 2023,
+    "price": 215000,
+    "image": "../images/portofino.jpg",
+    "specs": {
+      "engine": "V8 3.9L Twin-Turbo",
+      "power": "620 cv",
+      "top_speed": "320 km/h",
+      "acceleration": "3.5s (0-100 km/h)"
+    },
+    "description": "O Portofino M é o spider GT por excelência, combinando desempenho e versatilidade."
+  },
+  {
+    "id": 6,
+    "model": "Daytona SP3",
+    "category": "limited",
+    "year": 2023,
+    "price": 2200000,
+    "image": "../images/daytona.jpg",
+    "specs": {
+      "engine": "V12 6.5L Naturalmente Aspirado",
+      "power": "840 cv",
+      "top_speed": "340 km/h",
+      "acceleration": "2.85s (0-100 km/h)"
+    },
+    "description": "O Daytona SP3 é um tributo aos esportivos dos anos 60, limitado a apenas 599 unidades."
+  },
+  {
+    "id": 7,
+    "model": "Purosangue",
+    "category": "SUV",
+    "year": 2023,
+    "price": 398000,
+    "image": "../images/purosangue.jpg",
+    "specs": {
+      "engine": "V12 6.5L Naturalmente Aspirado",
+      "power": "725 cv",
+      "top_speed": "310 km/h",
+      "acceleration": "3.3s (0-100 km/h)"
+    },
+    "description": "O Purosangue é o primeiro SUV da Ferrari, combinando luxo, espaço e desempenho esportivo com a tradição da marca."
+  },
+  {
+    "id": 8,
+    "model": "SF90 XX Stradale",
+    "category": "limited",
+    "year": 2024,
+    "price": 850000,
+    "image": "../images/sf90xx.jpg",
+    "specs": {
+      "engine": "V8 4.0L Twin-Turbo + Motores Elétricos",
+      "power": "1030 cv",
+      "top_speed": "320 km/h",
+      "acceleration": "2.3s (0-100 km/h)"
+    },
+    "description": "O SF90 XX Stradale é a versão extrema do SF90, voltada para pistas mas homologado para as ruas."
+  },
+  {
+    "id": 9,
+    "model": "812 Competizione",
+    "category": "limited",
+    "year": 2023,
+    "price": 600000,
+    "image": "../images/812competizione.jpg",
+    "specs": {
+      "engine": "V12 6.5L Naturalmente Aspirado",
+      "power": "830 cv",
+      "top_speed": "340 km/h",
+      "acceleration": "2.85s (0-100 km/h)"
+    },
+    "description": "O 812 Competizione é a versão mais radical do 812, com foco em performance e aerodinâmica."
+  },
+  {
+    "id": 10,
+    "model": "Ferrari Roma Spider",
+    "category": "sports",
+    "year": 2024,
+    "price": 270000,
+    "image": "../images/romaspider.jpg",
+    "specs": {
+      "engine": "V8 3.9L Twin-Turbo",
+      "power": "620 cv",
+      "top_speed": "320 km/h",
+      "acceleration": "3.4s (0-100 km/h)"
+    },
+    "description": "O Roma Spider traz o estilo elegante do Roma original com a emoção de um conversível."
+  }
+]

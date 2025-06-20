@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cars.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/ferrari-logo.png" alt="Ferrari Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Carros</a></li>
+                <li><a href="racing.html">Racing</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="cars-main">
+        <section class="cars-hero">
+            <div class="cars-hero-content">
+                <h1>LINHA FERRARI</h1>
+                <p>Descubra nossa coleção de supercarros</p>
+            </div>
+        </section>
+
+        <section class="search-section">
+            <div class="container">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Pesquise por modelo, ano ou especificação...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="filter-options">
+                    <select id="category-filter">
+                        <option value="all">Todas Categorias</option>
+                        <option value="sports">Esportivos</option>
+                        <option value="super">Supercarros</option>
+                        <option value="limited">Edições Limitadas</option>
+                    </select>
+                    <select id="price-filter">
+                        <option value="all">Qualquer Preço</option>
+                        <option value="0-200">Até $200.000</option>
+                        <option value="200-400">$200.000 - $400.000</option>
+                        <option value="400-600">$400.000 - $600.000</option>
+                        <option value="600+">Acima de $600.000</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="cars-grid-section">
+            <div id="cars-container" class="container">
+
+            </div>
+            <div id="no-results" class="no-results">
+                <p>Nenhum carro encontrado...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/ferrari-logo-2.png" alt="Ferrari Logo">
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2023 Ferrari. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/cars.js"></script>
+</body>
