@@ -1,0 +1,167 @@
+.contact-main {
+  padding-top: 64px;
+}
+
+.contact-hero {
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/contact.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.contact-hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: #e00b0b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-hero-content p {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact-section {
+  padding: 4rem 0;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+}
+
+.contact-info {
+  background-color: #f8f8f8;
+  padding: 2rem;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.contact-info h2 {
+  color: #e00b0b;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e00b0b;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.info-item i {
+  color: #e00b0b;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+}
+
+.info-item p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.contact-info .social-media {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.contact-info .social-media a {
+  color: #333;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.contact-info .social-media a:hover {
+  color: #e00b0b;
+}
+
+.contact-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #e00b0b;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e00b0b;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #e00b0b;
+  outline: none;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.cta-button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+
+@media (max-width: 1024px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr 1.5fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-hero-content p {
+    font-size: 1.2rem;
+  }
+}
