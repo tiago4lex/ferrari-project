@@ -35,30 +35,30 @@ document.addEventListener("DOMContentLoaded", function () {
       carCard.className = "car-card";
 
       carCard.innerHTML = `
-                <div class="car-image">
-                    <img src="${car.image}" alt="${car.model}">
-                </div>
-                <div class="car-info">
-                    <h3>${car.model} <span>${car.year}</span></h3>
-                    <p class="price">$${car.price.toLocaleString()}</p>
-                    <p class="description">${car.description}</p>
-                    <div class="specs">
-                        <div class="spec-item">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <span>${car.specs.power}</span>
-                        </div>
-                        <div class="spec-item">
-                            <i class="fas fa-bolt"></i>
-                            <span>${car.specs.acceleration}</span>
-                        </div>
-                        <div class="spec-item">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <span>${car.specs.top_speed}</span>
-                        </div>
+            <div class="car-image">
+                <img src="${car.image}" alt="${car.model}">
+            </div>
+            <div class="car-info">
+                <h3>${car.model} <span>${car.year}</span></h3>
+                <p class="price">$${car.price.toLocaleString()}</p>
+                <p class="description">${car.description}</p>
+                <div class="specs">
+                    <div class="spec-item">
+                        <i class="fas fa-horse-head"></i>
+                        <span>${car.specs.power}</span>
                     </div>
-                    <button class="cta-button small">Ver Detalhes</button>
+                    <div class="spec-item">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>${car.specs.top_speed}</span>
+                    </div>
+                    <div class="spec-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>${car.specs.acceleration}</span>
+                    </div>
                 </div>
-            `;
+                <button class="cta-button small">Ver Detalhes</button>
+            </div>
+        `;
 
       carsContainer.appendChild(carCard);
     });
