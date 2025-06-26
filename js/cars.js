@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let carsData = [];
 
-  fetch("../data/cars.json")
+  fetch("../js/cars.json")
     .then((response) => response.json())
     .then((data) => {
       carsData = data;
