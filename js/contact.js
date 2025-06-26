@@ -37,6 +37,10 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
+    if (message.length < 20) {
+      alert("A mensagem deve conter pelo menos 20 caracteres")
+    }
+
     alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
     contactForm.reset();
   });
